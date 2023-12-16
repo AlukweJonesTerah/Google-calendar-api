@@ -1,0 +1,17 @@
+2023-12-09 17:55:16,203 - INFO - Successful login: hieee
+2023-12-09 18:40:48,599 - INFO - Successful login: hieee
+2023-12-10 06:00:15,404 - ERROR - Database error: (sqlite3.OperationalError) no such column: user.public_id
+[SQL: SELECT user.id AS user_id, user.public_id AS user_public_id, user.first_name AS user_first_name, user.last_name AS user_last_name, user.phone_number AS user_phone_number, user.email AS user_email, user.username AS user_username, user.password AS user_password, user.google_calendar_token AS user_google_calendar_token, user.last_activity AS user_last_activity 
+FROM user 
+WHERE user.email = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('tj.papajones@gmail.com', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-10 06:02:10,764 - ERROR - Database error: (sqlite3.OperationalError) no such column: user.public_id
+[SQL: SELECT user.id AS user_id, user.public_id AS user_public_id, user.first_name AS user_first_name, user.last_name AS user_last_name, user.phone_number AS user_phone_number, user.email AS user_email, user.username AS user_username, user.password AS user_password, user.google_calendar_token AS user_google_calendar_token, user.last_activity AS user_last_activity 
+FROM user 
+WHERE user.email = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('tj.papajones@gmail.com', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-10 06:04:45,361 - INFO - Successful login: hieee
